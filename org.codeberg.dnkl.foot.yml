@@ -5,6 +5,8 @@ sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
 command: foot.sh
+rename-desktop-file: foot.desktop
+rename-icon: foot
 
 finish-args:
   - --socket=wayland
