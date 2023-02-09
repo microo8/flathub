@@ -33,6 +33,8 @@ modules:
         tag: 3.1.5
   - name: foot
     buildsystem: meson
+    config-opts:
+      - -Dterminfo=disabled
     sources:
       - type: git
         url: https://codeberg.org/dnkl/foot.git
