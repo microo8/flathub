@@ -22,21 +22,21 @@ modules:
   - name: tllist
     buildsystem: meson
     sources:
-      - type: archive
-        url: https://codeberg.org/dnkl/tllist/archive/1.1.0.zip
-        sha256: 9eb339e668d50e44ac1ffef825e8d17948e199d05840fd0e77775324ce3ffb4d
+      - type: git
+        url: https://codeberg.org/dnkl/tllist.git
+        tag: 1.1.0
   - name: fcft
     buildsystem: meson
     sources:
-      - type: archive
-        url: https://codeberg.org/dnkl/fcft/archive/3.1.2.zip
-        sha256: 9b599541c35dedde4ce32f84b8ec226ba33b10a3c188440ad55f315a401ef2b8
+      - type: git
+        url: https://codeberg.org/dnkl/fcft.git
+        tag: 3.1.5
   - name: foot
     buildsystem: meson
     sources:
-      - type: archive
-        url: https://codeberg.org/dnkl/foot/archive/1.13.0.zip
-        sha256: d0af98e61ea25e121549ded561ee1fe1b11c901b81a7c11844bd6fb32139f256
+      - type: git
+        url: https://codeberg.org/dnkl/foot.git
+        tag: 1.13.1
   - name: foot.sh
     buildsystem: simple
     sources:
