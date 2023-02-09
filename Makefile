@@ -1,3 +1,5 @@
+.PHONY: build-dir install run clean
+
 build-dir:
 	flatpak-builder --user --force-clean build-dir org.codeberg.dnkl.foot.yml
 
